@@ -1,3 +1,5 @@
+package basic_print;
+
 public class print1106 {
     public static void main(String[] args) {
         int min, max;
