@@ -8,8 +8,8 @@ public class IO_1023 {
         String x = scanner.next();
         String[] a = x.split("\\.");
 
-        for(int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
+        for (String s : a) {
+            System.out.println(s);
         }
     }
 }
