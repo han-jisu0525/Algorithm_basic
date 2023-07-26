@@ -2,18 +2,16 @@ package basic5_3;
 
 import java.util.Scanner;
 
-public class practice_1467 {
+public class practice_1462 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int m = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            for (int j = m-1; j >= 0; j--) {
-                System.out.printf("%d ", n*j + i);
+            for (int j = 0; j < n; j++) {
+                System.out.printf("%d ", i+ j*n);
             }
             System.out.println();
         }
-
     }
 }
