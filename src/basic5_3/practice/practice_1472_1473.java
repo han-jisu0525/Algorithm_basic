@@ -1,4 +1,4 @@
-package basic5_3;
+package basic5_3.practice;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package basic5_3;
+package basic5_3.dimensionalArray;
 
 import java.util.Scanner;
 
