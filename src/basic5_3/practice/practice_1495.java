@@ -2,7 +2,7 @@ package basic5_3.practice;
 
 import java.util.Scanner;
 
-public class practice_1495_문제이상 {
+public class practice_1495 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -13,8 +13,8 @@ public class practice_1495_문제이상 {
 
         for (int i = 0; i < k; i++) {
             x1 = sc.nextInt();
-            x2 = sc.nextInt();
             y1 = sc.nextInt();
+            x2 = sc.nextInt();
             y2 = sc.nextInt();
             u = sc.nextInt();
 
